@@ -665,11 +665,11 @@ function OrionLib:MakeWindow(WindowConfig)
 	end)
 	
 	AddConnection(CloseBtn.MouseButton1Up, function()
-	  OrionLib:MakeNotification({Name = "KaGa HUB",Content = "Destroy Script..." ,Image = "rbxassetid://",Time = 5})task.wait(1)
+	  OrionLib:MakeNotification({Name = "YUFA HUB",Content = "Destroy Script..." ,Image = "rbxassetid://",Time = 5})task.wait(1)
 	  Orion:Destroy()
 	end)
 
-	OrionLib:MakeNotification({Name = "KaGa HUB",Content = "Execute Script..." ,Image = "rbxassetid://",Time = 5})
+	OrionLib:MakeNotification({Name = "YUFA HUB",Content = "Execute Script..." ,Image = "rbxassetid://",Time = 5})
 
 	local function LoadSequence()
 		MainWindow.Visible = false
